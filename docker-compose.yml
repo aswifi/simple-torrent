@@ -3,11 +3,11 @@ services:
     cloud-torrent:
 #        network_mode: host
         ports:
-            - '3000:3000'
+            - '3000:80'
 #            - '50007:50007'
         volumes:
-            - '/path/to/my/downloads:/downloads'
-            - '/path/to/my/torrents:/torrents'
-            - '/path/to/my/config:/etc/cloud-torrent'
+            - '/app/downloads:/downloads'
+            - '/app/torrents:/torrents'
+            - '/app/config:/etc/cloud-torrent'
         image: boypt/cloud-torrent
         command: --auth username:password
