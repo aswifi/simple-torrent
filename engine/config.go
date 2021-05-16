@@ -22,7 +22,7 @@ const (
 )
 
 const (
-	defaultTrackerListURL = "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best.txt"
+	defaultTrackerListURL = "https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection@master/all.txt"
 	defaultScraperURL     = "https://raw.githubusercontent.com/boypt/simple-torrent/master/scraper-config.json"
 )
 
