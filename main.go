@@ -14,7 +14,7 @@ var VERSION = "0.0.0-src" //set with ldflags
 func main() {
 	s := server.Server{
 		Title: "SimpleTorrent",
-		Port:  3000,
+		Port:  80,
 	}
 
 	o := opts.New(&s)
